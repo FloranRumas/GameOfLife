@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Game Of Life</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header"></header>
+    </div>
+    <div class="main">
+        <form class="login">
+            <h1 class="header__title"> Bienvenue sur le Jeu de la Vie !</h1>
+            <h2 claas="header__subtitle">Veuillez vous connecter !</p>
+                <div class="form__username">
+                    <input type="text" id="username" name="username" placeholder="Nom :" required />
+                </div>
+                <div class="form__password">
+                    <input type="password" id="password" name="password" class="form__password input"
+                        placeholder="Mot de passe :" required />
+                    <h3 class="conditionMdpTitle conditionMdpTitle--hide">Attention, votre mot de passe doit contenir :
+                    </h3>
+                    <ul class="conditionMdp conditionMdp--hide">
+                        <li id="caractere">Minimum 8 caractères</li>
+                        <li id="letter">Une lettre</li>
+                        <li id="nbr">Un chiffre</li>
+                        <li id="caracAlpha">Un caractère spécial</li>
+                        <li id="maj">Une majuscule</li>
+                    </ul>
+                    <h3 class="login__error login__error--hide">Les identifiants saisis sont incorrects.</h3>
+                </div>
+                </br>
+                <div class="form__submit">
+                    <input type="button" value="Se connecter" id="submit" onclick="connexion()" />
+                </div>
+        </form>
+    </div>
+
+</body>
+<script src="javascript/login.js"></script>
+
+</html>

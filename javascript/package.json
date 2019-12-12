@@ -1,0 +1,14 @@
+{
+  "name": "gameoflife",
+  "version": "0.0.1",
+  "description": "coursjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Floran Rumas",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Game Of Life</title>
+    <link rel="stylesheet" href="css/styleJeu.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+
+        </header>
+    </div>
+    <div class="main">
+        <h1 class="header__title"> Bienvenue sur le Jeu de la Vie !</h1>
+        </br>
+        <div class="gridSize">
+            <input type="text" id="gridSize" name="gridSize" placeholder="Taille de la grille :" />
+        </div>
+        <div class="nbrCycleLife">
+            <input type="text" id="nbrCycleLife" name="nbrCycleLife" placeholder="Nombre de cycle :" />
+        </div>
+        </br>
+        <div class="boutons">
+            <div class="run__game">
+                <input type="button" value="Lancer le jeu" id="generate" />
+            </div>
+            <div class="run__nextTime">
+                <input type="button" value="Prochaine étape" id="nextStep" />
+            </div>
+            <div class="run__NbrCycle">
+                <input type="button" value="Générer" id="nbrCycleDefined" />
+            </div>
+            <div class="submit__index">
+                <input type="button" value="Retour au login" id="submit"
+                    onclick="javascript:location.href='index.html'" />
+            </div>
+        </div>
+    </div>
+    <div id="grid">
+
+    </div>
+
+</body>
+<script src="javascript/login.js"></script>
+<script src="javascript/index.js"></script>
+<script src="javascript/app.js"></script>
+
+</html>
